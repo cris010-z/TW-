@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% load static %}
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>BerryState</title>
+    <!-- Favicon-->
+    <link rel="shortcut icon"
+          type="image/x-icon"
+          href="{% static 'assets/favicon.ICO' %}"/>
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="{% static 'css/styles.css' %}" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<header class="header">
+    <div class="top">
+        <img src="{% static 'assets/logo.PNG' %}" id="logo" alt="Logo" height="50px">
+        <h1 class="title">Sweet Charlie Leaf Spot Recognition</h1>
+    </div>
+
+</header>
+
+    <main class="container-m">
+      <div class="row1 grid grid-3-1 gap">
+
+        <div class="col m-left">
+          <!--Contains information about sweet charlie & leaf spot-->
+
+                      <div class="col-end">
+            <h3>
+              What is leaf spot disease?
+            </h3>
+            <p class="main_para">
+              <a target="_blank" href="https://drive.google.com/file/d/1zFGzXCsxNLbwXWP2H1biqsq83xpkzx6-/view?usp=sharing">
+                Leaf spot</a> (a.k.a tatek, latek, frog-eye) is one of the most common diseases occuring worldwide,
+              caused by the fungus
+              <span><a  target="_blank" href="https://wiki.bugwood.org/Mycosphaerella_fragariae">Mycosphaerella fragariae</a></span>,
+               which can enter a garden on
+              <b>infected plants or via windblown spores</b>. It will
+              spread largely through splashing water from rain or
+              sprinkles.
+            </p>
+
+            <p>
+              Symptoms: Small, dark purple to reddish-purple, round spots on the leaf.
+                The center of the spots soon becomes tan or
+                gray and eventually almost white, while the broad margins remain dark purple.
+                On fruits, it appears as superficial black spots.
+            </p>
+          </div>
+
+          <div class="col-start">
+            <h3>What is Sweet Charlie?</h3>
+            <p class="main_para">
+              <a target="_blank"
+              href="https://strawberryplants.org/sweet-charlie-strawberry-plants/#:~:text
+              ='Sweet%20Charlie'%20was%20developed%20at,U.S.%20Plant%20Patent%20PP%208%2C729.">
+              Sweet Charlie</a> is a strawberry variety protected under the U.S.
+              plant patent (p. 8,729). It was developed at the University of
+              Florida's Gulf Coast Research and Education Center.
+              <br />
+              It is one of the most popular planted and commercial variety in La
+              Trinidad, Benguet, Philippines' major strawberry producer.
+            </p>
+            <p class="w_style">
+              Watch out! Its unauthorized propagation is against the law!
+            </p>
+            <p class="fact" >
+              <b><a target="_blank" href="https://www.ediblearrangements.com/blog/fun-facts-about-strawberries/">
+                Fun Fact</a></b>: Strawberries contain more Vitamin C than oranges!
+            </p>
+          </div>
+
+          <div class="row-bottom">
+            <div class="manage-col">
+              <h3 class="manage-title">Management</h3>
+              <ul class="bullet-lst">
+                <li>Plant disease-free stock</li>
+                <li>Proper spray timing</li>
+                <li>Control weeds in the planting</li>
+                <li>Cut, bury or burn infected leaves</li>
+                <li>Remove infected leaves after harvest</li>
+                <li>Proper spacing of runner plants</li>
+                <li>Avoid overfertilizing with nitrogen </li>
+              </ul>
+            </div>
+
+            <div class="carousel">
+              <figure class="sc-container">
+                <figcaption>Betag, LTB Stawberry Farm</figcaption>
+                <img src="{% static 'assets/strawberry-farm.jpg' %}" class="img_slideshow sc_image" />
+                <img src="{% static 'assets/sc.jpg' %}" class="img_slideshow sc_image" />
+                <img src="{% static 'assets/back.jpg' %}" class="img_slideshow sc_image" />
+                <img src="{% static 'assets/sc2.jpg' %}" class="img_slideshow sc_image" />
+                <img src="{% static 'assets/sc3.jpg' %}" class="img_slideshow sc_image" />
+                <img src="{% static 'assets/sc4.jpg' %}" class="img_slideshow sc_image" />
+                  <img src="{% static 'assets/sc5.jpg' %}" class="img_slideshow sc_image" />
+                <img src="{% static 'assets/sc6.jpg' %}" class="img_slideshow sc_image" />
+                <img src="{% static 'assets/sc7.jpg' %}" class="img_slideshow sc_image" />
+                <img src="{% static 'assets/sc8.jpg' %}" class="img_slideshow sc_image" />
+                <img src="{% static 'assets/sc9.jpg' %}" class="img_slideshow sc_image" />
+                <img src="{% static 'assets/sc10.jpg' %}" class="img_slideshow sc_image" />
+                <img src="{% static 'assets/sc11.jpg' %}" class="img_slideshow sc_image" />
+                <div class="slide-arr">
+                  <button class="left-arr" onclick="plusDivs(-1)"> &#10094;</button>
+                  <button class="right-arr" onclick="plusDivs(1)"> &#10095;</button>
+                </div>
+              </figure>
+              <figure class="lf-container">
+                <figcaption>Leaf Spot Disease</figcaption>
+                <img src="{% static 'assets/lfspot1.jpg' %}" class="img_slideshow sc_image2" />
+                <img src="{% static 'assets/lfspot2.jpg' %}" class="img_slideshow sc_image2" />
+                <img src="{% static 'assets/lfspot3.jpg' %}" class="img_slideshow sc_image2" />
+                <img src="{% static 'assets/lfspot4.jpg' %}" class="img_slideshow sc_image2" />
+                <div class="slide-arr">
+                  <button class="left-arr" onclick="plusDivs2(-1)"> &#10094; </button>
+                  <button class="right-arr" onclick="plusDivs2(1)"> &#10095;</button>
+                </div>
+              </figure>
+            </div>
+
+          </div>
+          <!-- row-bottom end-->
+        </div>
+
+        <div class="col m-right">
+          <!--MAIN COLUMN FOR USERS TO TEST & RUN AN IMAGE-->
+
+          <div class="l_container">
+            <div class="container d-flex justify-content-center align-items-center pt-3 mt-3" style="height: 100">
+            <div class="text-center">
+                <h2>Upload and Classify an Image</h2>
+                <div class="card ">
+                    <div class="card-body">
+                {% if classification_result %}
+                        <div class="mt-3">
+                            <img class="card-img-top" width="500" src="{{ image_path }}">
+                            <h4>Classification Result:</h4>
+                            <p>{{ classification_result }}</p>
+                        </div>
+                        <button onclick="goToHomePage()" class="btn btn-primary mt-3" id="bckBtn">Back</button>
+                {% else %}
+                        <form action="{% url 'upload_image' %}" method="post" enctype="multipart/form-data" id="upload-form">
+                    {% csrf_token %}
+                            <img class="card-img-top" max-width="500" height="200" id="preview" src="#" alt="Preview Image" style="display: none;">
+                            <div class="mb-3">
+                                <input class="form-control" type="file" name="image" id="image-in" required accept="image/*" onchange="previewImage(event)">
+                            </div>
+                        </form><form method="post" action="{% url 'classify_image' id=images.id|default:0 %}" enctype="multipart/form-data" class="form" id="classify-form" >
+                    {% csrf_token %}
+                        <button class="btn btn-primary col-lg-12" type="submit" name="classify" id="classify" disabled>Classify </button>
+                    </form>
+                 {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+             <div id="gifContainer">
+                  <img src="{% static 'assets/dummy2.gif' %}" id="fillerImg"  />
+              </div>
+
+          </div>
+        </div>
+      </div>
+    </main>
+
+<script>
+function previewImage(event) {
+    var preview = document.getElementById('preview');
+    preview.style.display = 'block';
+    preview.src = URL.createObjectURL(event.target.files[0]);
+
+    document.getElementById("classify").removeAttribute("disabled");
+
+    var form = document.getElementById('upload-form');
+    var xhr = new XMLHttpRequest();
+    xhr.open('POST', form.action);
+    xhr.setRequestHeader('X-CSRFToken', form.csrfmiddlewaretoken.value);
+    var formData = new FormData(form);
+    xhr.send(formData);
+
+
+    var form2 = document.getElementById('classify-form');
+    var xhr2 = new XMLHttpRequest();
+    xhr2.open('POST', form2.action);
+    xhr2.setRequestHeader('X-CSRFToken', form2.csrfmiddlewaretoken.value);
+    var formData2 = new FormData2(form2);
+    xhr2.send(formData2);
+}
+
+function goToHomePage() {
+  window.location.href = "/";
+}
+
+
+var atIndex = 1;
+showDivs(atIndex);
+
+function plusDivs(n){
+	showDivs(atIndex += n);
+}
+function showDivs(n){
+	var i;
+	var x= document.getElementsByClassName("sc_image");
+	if (n > x.length){atIndex = 1}
+	if (n<1) {atIndex = x.length}
+	for (i=0; i <x.length; i++){
+		x[i].style.display="none";
+	}
+	x[atIndex-1].style.display="block";
+}
+var atIndex2=1;
+showDivs_2(atIndex2);
+
+function plusDivs2(n){
+	showDivs_2(atIndex2 += n);
+}
+function showDivs_2(n){
+	var y=document.getElementsByClassName("sc_image2");
+	if (n > y.length){atIndex2 = 1}
+	if (n<1) {atIndex2 = y.length}
+	for (i=0; i <y.length; i++){
+		y[i].style.display="none";
+	}
+	y[atIndex2-1].style.display="block";
+
+}
+
+
+document.getElementById('image-in').oninput = function () {
+    divTest = document.getElementById('fillerImg');
+    if (divTest.style.display === "none") {
+        divTest.style.display = 'block';
+    }
+    else {
+        divTest.style.display = "none";
+   }
+};
+
+window.addEventListener('beforeunload', function(){
+    sessionStorage.removeItem(hideFillerImg);});
+
+
+</script>
+</body>
+</html>
